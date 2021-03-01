@@ -1,0 +1,11 @@
+CREATE TABLE bricks(
+  id int NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(255) NOT NULL UNIQUE,
+  Color VARCHAR(255) NOT NULL,
+  PRIMARY KEY(id)
+);
+INSERT INTO bricks
+(Name,Color)
+VALUES
+("bRICK1","RED");
+SELECT * FROM bricks;
